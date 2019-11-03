@@ -4,9 +4,9 @@ header {
 
 .container {
     background: lightgray;
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
+    display: flex; /* ativamos o recurso flexbox */
+    flex-flow: row; /* diz que é em linhas */
+    flex-wrap: wrap; /*  */
 }
 
 .box-noticia {
@@ -16,9 +16,11 @@ header {
 }
 
 .noticia-destaque {
-    flex-grow: 2; 
+    flex-grow: 2; /* faz ocupar um espaço maior ( 2 cresce o dobro) */
 }
 
+/* a ordem interfere na apresentação, veja que no arquivo
+ html as noticias estao em ordem crescente e na apresentação nao!*/
 .not4 {
     order: 1;    
 }
