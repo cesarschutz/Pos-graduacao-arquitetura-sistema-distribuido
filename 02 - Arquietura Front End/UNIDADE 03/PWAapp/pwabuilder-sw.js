@@ -1,3 +1,5 @@
+//                                 <!-- PWA - BUILDER.JS -->
+
 // This is the "Offline copy of pages" service worker
 const CACHE = "pwaapp-cache";
 
