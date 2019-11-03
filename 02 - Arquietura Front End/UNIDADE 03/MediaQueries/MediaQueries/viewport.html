@@ -3,17 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no-scale"> 
+    
+    <!-- width=device-width     - condifuracao para ela em device -->
+	<!-- initial-scale=1.0      - conrole o zoom da tela -->
+    <!-- user-scalable=no-scale - travamos que o usuario não faça o zoom-->
+    
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        * {box-sizing: border-box;}
-        header { background: lightgreen; height: 150px}
-        main { background: lightgray; width:60%; float:left; padding: 20px}
-        aside { background: lightskyblue; width:40%; float:left; padding: 20px }
-        footer { background: lightcyan; clear:both }
+        * {
+            box-sizing: border-box;
+        }
+        header {
+             background: lightgreen; 
+             height: 150px
+        }
+        main { 
+            background: lightgray; 
+            width:60%; 
+            float:left; 
+            padding: 20px
+        }
+        aside { 
+            background: lightskyblue; 
+            width:40%; 
+            float:left; 
+            padding: 20px 
+        }
+        footer { 
+            background: lightcyan; 
+            clear:both 
+        }
+        
         @media (max-width: 600px) {
-            img.logo { display: block; margin: 0 auto; }
-            main, aside { width: 100% }
+            img.logo { 
+                display: block; 
+                margin: 0 auto; 
+            }
+            main, aside { 
+                width: 100% 
+            }
         }
     </style>
 </head>
